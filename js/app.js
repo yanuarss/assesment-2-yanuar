@@ -1,4 +1,6 @@
 jQuery(document).ready(function(e) {
     // show alert
-    alert(jQuery('title').text());
+    if (!jQuery('body.home').length) {
+        alert(jQuery('title').text());
+    }
 });
