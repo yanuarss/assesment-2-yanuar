@@ -8,5 +8,8 @@
     <body <?php body_class(); ?>>
         <header>
             X
-            <?php wp_nav_menu(['menu' => 'primary']); ?>
+            <?php
+                // show primary menu
+                wp_nav_menu(['menu' => 'primary']);
+            ?>
         </header>
